@@ -14,7 +14,7 @@ const greeting = {
   username: "NaderSalama",
   title: "Hello There, I’m NaderSalama",
   subTitle: emoji(
-    "Bio-Mechatronics Engineer & an Enthusiastic machine learning and Data Analyst also A passionate Full Stack Software Developer 🚀"
+    "Bio-Mechatronics Engineer & an Enthusiastic Machine learning and data analyst also a Passionate Full Stack Cloud Practitioner & Software Developer 🚀"
   ),
   resumeLink:
     "https://drive.google.com/file/d/10z6x61wejuN5TRBoq_ltBzJkGs6FTF_q/view?usp=sharing", // Set to empty to hide the button
@@ -61,8 +61,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "pandas",
+      fontAwesomeClassname: "fab fa-pandas"
     },
     {
       skillName: "JavaScript",
@@ -81,8 +81,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-swift"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "numpy",
+      fontAwesomeClassname: "fab fa-numpy"
     },
     {
       skillName: "sql-database",
@@ -93,16 +93,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "C++",
+      fontAwesomeClassname: "fas fa-C++"
     },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -115,14 +115,14 @@ const educationInfo = {
   schools: [
     {
       schoolName: "AinShams , Faculty of Engineering",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/asunews_119_img.png"),
       subHeader: "Bachelor Degree in Bio-Mechatronics Engineering",
       duration: "September 2015 - July 2020",
       desc: "Participated in a Graduation Project which was a collaboration between Ain shams University and Lincolin University in UK",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+     // descBullets: [
+     //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+     //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+     //  ]
     },
   ]
 };
@@ -133,16 +133,20 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend", //Insert stack or technology you have experience in
-      progressPercentage: "70%" //Insert relative proficiency in percentage
+      Stack: "DataAnalysis", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "MachineLearning",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Frontend",
+      progressPercentage: "60%"
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "80%"
+      progressPercentage: "60%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
