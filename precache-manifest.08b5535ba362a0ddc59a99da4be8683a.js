@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2b6c9e3bdd64eb13127dc9a4450bd1b2",
+    "revision": "a67d31e63b272ff1a54ebba7713d1f25",
     "url": "/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/4.e91a4b36.chunk.css"
   },
   {
-    "revision": "48f6ad06795416600c62",
+    "revision": "73e87b3e30a666452e7c",
     "url": "/static/css/main.66262938.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/4.221f4606.chunk.js"
   },
   {
-    "revision": "48f6ad06795416600c62",
-    "url": "/static/js/main.777c7498.chunk.js"
+    "revision": "73e87b3e30a666452e7c",
+    "url": "/static/js/main.b8133dd4.chunk.js"
   },
   {
     "revision": "12c0d7bd038831784a29",
@@ -50,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c59720d63dc3595a12e1c7e641a1bfa5",
     "url": "/static/media/airbnbLogo.c59720d6.png"
+  },
+  {
+    "revision": "22996a8e470b22ecf4bf06a88e8a6526",
+    "url": "/static/media/asunews_119_img.22996a8e.png"
   },
   {
     "revision": "47a7a717679b640ceb1b05d38c480a61",
@@ -70,10 +74,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e79c639294c805688be731921368c8f8",
     "url": "/static/media/googleAssistantLogo.e79c6392.webp"
-  },
-  {
-    "revision": "35ef5e915631be2c31ccdff55b53db29",
-    "url": "/static/media/harvardLogo.35ef5e91.png"
   },
   {
     "revision": "52be31441c8cf8a8a16bd7a228d428bf",
