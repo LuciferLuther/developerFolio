@@ -137,7 +137,7 @@ const techStack = {
 };
 
 // Work experience section
-/*
+
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
@@ -168,7 +168,7 @@ const workExperiences = {
     }
   ]
 };
-*/
+
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
