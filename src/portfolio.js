@@ -14,7 +14,7 @@ const greeting = {
   username: "NaderSalama",
   title: "Hello There, I’m NaderSalama",
   subTitle: emoji(
-    "Bio-Mechatronics Engineer & an Enthusiastic Machine learning and data analyst also a Passionate Full Stack Cloud Practitioner & Software Developer 🚀"
+    "Bio-Mechatronics Engineer & an Enthusiastic Machine learning - Data analyst & soon a DevOps Engineer & a Cloud Practitioner 🚀"
   ),
   resumeLink:
     "https://drive.google.com/file/d/10z6x61wejuN5TRBoq_ltBzJkGs6FTF_q/view?usp=sharing", // Set to empty to hide the button
@@ -35,16 +35,19 @@ const socialMediaLinks = {
 
 // Skills Section
 
+    
+
+
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "I'm always seeking to learing new things & solve problem & projects that can increase my knowldge & experience",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Mine and analyze data from company databases to drive optimization and improvement of product development, marketing techniques and business strategies."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Use predictive modeling to increase and optimize customer experiences, revenue generation, ad targeting and other business outcomes."),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Develop processes and tools to monitor and analyze model performance and data accuracy."
     )
   ],
 
@@ -69,28 +72,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "numpy",
       fontAwesomeClassname: "fab fa-numpy"
     },
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
     },
     {
       skillName: "C++",
@@ -134,26 +121,23 @@ const techStack = {
   experience: [
     {
       Stack: "DataAnalysis", //Insert stack or technology you have experience in
-      progressPercentage: "80%" //Insert relative proficiency in percentage
+      progressPercentage: "75%" //Insert relative proficiency in percentage
     },
     {
       Stack: "MachineLearning",
-      progressPercentage: "80%"
+      progressPercentage: "70%"
     },
     {
-      Stack: "Frontend",
-      progressPercentage: "60%"
+      Stack: "DevOps",
+      progressPercentage: "35%"
     },
-    {
-      Stack: "Backend",
-      progressPercentage: "60%"
-    }
+
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
-
+/*
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
@@ -184,7 +168,7 @@ const workExperiences = {
     }
   ]
 };
-
+*/
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
@@ -223,7 +207,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -281,7 +265,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
