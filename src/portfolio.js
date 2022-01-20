@@ -65,7 +65,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "pandas",
-      fontAwesomeClassname: "fab fa-pandas"
+      fontAwesomeClassname: "fab fa-Pandas"
     },
     {
       skillName: "JavaScript",
@@ -73,15 +73,15 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "numpy",
-      fontAwesomeClassname: "fab fa-numpy"
+      fontAwesomeClassname: "fab fa-Numpy"
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "MySql",
+      fontAwesomeClassname: "fas fa-MySql"
     },
     {
       skillName: "C++",
-      fontAwesomeClassname: "fas fa-C++"
+      fontAwesomeClassname: "fas fa-C"
     },
     {
       skillName: "python",
