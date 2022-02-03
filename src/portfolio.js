@@ -120,16 +120,24 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "DataAnalysis", //Insert stack or technology you have experience in
-      progressPercentage: "75%" //Insert relative proficiency in percentage
+      Stack: "Pandas", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
+    },
+     {
+      Stack: "Numpy", //Insert stack or technology you have experience in
+      progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "MachineLearning",
-      progressPercentage: "70%"
+      Stack: "SQL",
+      progressPercentage: "65%"
     },
     {
-      Stack: "DevOps",
-      progressPercentage: "35%"
+      Stack: "Python",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Jupyter Notebook",
+      progressPercentage: "80%"
     },
 
   ],
