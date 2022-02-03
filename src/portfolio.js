@@ -7,7 +7,7 @@ import emoji from "react-easy-emoji";
 // Summary And Greeting Section
 
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: false // Set to false to use static SVG
 };
 
 const greeting = {
