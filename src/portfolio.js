@@ -7,7 +7,7 @@ import emoji from "react-easy-emoji";
 // Summary And Greeting Section
 
 const illustration = {
-  animated: True // Set to false to use static SVG
+  animated: true // Set to false to use static SVG
 };
 
 const greeting = {
@@ -149,7 +149,7 @@ const techStack = {
     },
 
   ],
-  displayCodersrank: True // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
