@@ -7,17 +7,17 @@ import emoji from "react-easy-emoji";
 // Summary And Greeting Section
 
 const illustration = {
-  animated: false // Set to false to use static SVG
+  animated: True // Set to false to use static SVG
 };
 
 const greeting = {
   username: "NaderSalama",
   title: "Hello There, I’m NaderSalama",
   subTitle: emoji(
-    "Bio-Mechatronics Engineer & an Enthusiastic Machine learning - Data analyst & soon a DevOps Engineer & a Cloud Practitioner 🚀"
+    "Bio-Mechatronics Engineer & an enthusiastic DataScientist - MachineLearning Engineer 🤖"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/10z6x61wejuN5TRBoq_ltBzJkGs6FTF_q/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/15Wu_EjpL1SZwBd0dLaNOS_G0_vnLNfLn/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -40,7 +40,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "I'm always seeking to learing new things & solve problem & projects that can increase my knowldge & experience",
+  subTitle: "I'm always seeking to learing new things & solve problem & projects that can increase my knowldge & experience ,I'm currently aiming for achieving AWS Certified Cloud Practitioner, so that i can increase my fields of knowledge even further",
   skills: [
     emoji(
       "⚡ Mine and analyze data from company databases to drive optimization and improvement of product development, marketing techniques and business strategies."
@@ -64,31 +64,39 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "pandas",
+      skillName: "Pandas",
       fontAwesomeClassname: "fab fa-Pandas"
     },
     {
-      skillName: "JavaScript",
+      skillName: "Tableau",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "numpy",
+      skillName: "Numpy",
       fontAwesomeClassname: "fab fa-Numpy"
     },
     {
-      skillName: "MySql",
+      skillName: "PostgreSQL",
       fontAwesomeClassname: "fas fa-MySql"
     },
     {
-      skillName: "C++",
+      skillName: "Hadoop",
       fontAwesomeClassname: "fas fa-C"
     },
     {
-      skillName: "python",
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+     {
+      skillName: "Apache",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "java",
+      skillName: "TensorFlow",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "Java",
       fontAwesomeClassname: "fab fa-java"
     }
   ],
@@ -105,7 +113,7 @@ const educationInfo = {
       logo: require("./assets/images/asunews_119_img.png"),
       subHeader: "Bachelor Degree in Bio-Mechatronics Engineering",
       duration: "September 2015 - July 2020",
-      desc: "Participated in a Graduation Project which was a collaboration between Ain shams University and Lincolin University in UK",
+      desc: "Participated in a Graduation Project with a collaboration between Ain shams University and Lincolin University in UK",
      // descBullets: [
      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -121,27 +129,27 @@ const techStack = {
   experience: [
     {
       Stack: "Pandas", //Insert stack or technology you have experience in
-      progressPercentage: "80%" //Insert relative proficiency in percentage
+      progressPercentage: "90%" //Insert relative proficiency in percentage
     },
      {
       Stack: "Numpy", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "75%" //Insert relative proficiency in percentage
     },
     {
       Stack: "SQL",
-      progressPercentage: "65%"
+      progressPercentage: "75%"
     },
     {
       Stack: "Python",
-      progressPercentage: "80%"
+      progressPercentage: "82%"
     },
     {
       Stack: "Jupyter Notebook",
-      progressPercentage: "80%"
+      progressPercentage: "85%"
     },
 
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: True // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
