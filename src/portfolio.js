@@ -17,7 +17,7 @@ const greeting = {
     "Bio-Mechatronics Engineer & an enthusiastic DataScientist - MachineLearning Engineer 🤖"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/15Wu_EjpL1SZwBd0dLaNOS_G0_vnLNfLn/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1pMdLfbbw2r8eiN2Z0Z48SPFwjPb-zuGR/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
