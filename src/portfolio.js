@@ -214,10 +214,13 @@ const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
     "Achievements & Certifications I have done !",
+
   achievementsCards: [
     {
       title: "Advanced Data Analysis NanoDegree",
-      //image: require("./assets/images/codeInLogo.webp"),
+      subtitle:
+        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+      image: require("./assets/images/codeInLogo.webp"),
       footerLink: [
         {
           name: "Udacity Certificate",
@@ -227,9 +230,9 @@ const achievementSection = {
     },
     {
       title: "Data Analysis Professional NanoDegree",
-      //subtitle:
-      //  "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      //image: require("./assets/images/googleAssistantLogo.webp"),
+      subtitle:
+        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+      image: require("./assets/images/googleAssistantLogo.webp"),
       footerLink: [
         {
           name: "Udacity Certificate",
