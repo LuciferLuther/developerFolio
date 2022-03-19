@@ -110,7 +110,7 @@ const educationInfo = {
      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
      //  ]
-    },
+    }
   ]
 };
 
@@ -134,7 +134,7 @@ const techStack = {
     {
       Stack: "Python",
       progressPercentage: "82%"
-    },
+    }
   ],
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
