@@ -222,7 +222,9 @@ const achievementSection = {
         {
           name: "Udacity Certificate",
           url: "https://drive.google.com/file/d/1vKrpmyH-eceiHhRao6bsh7vf0EbRK0Sf/view?usp=sharing"
-        },
+        }
+      ]
+    },
     {
       title: "Data Analysis Professional NanoDegree",
       //subtitle:
@@ -237,7 +239,7 @@ const achievementSection = {
     },
     {
       title: "Machine Learning NanoDegree",
-      subtitle: "Completion Certifcate from Udemy for ML program",
+      subtitle: "Completion Certifcate from Udemy",
       //image: require("./assets/images/pwaLogo.webp"),
       footerLink: [
         {
