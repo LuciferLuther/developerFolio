@@ -14,7 +14,7 @@ const greeting = {
   username: "NaderSalama",
   title: "Hello There, I’m NaderSalama",
   subTitle: emoji(
-    "Bio-Mechatronics Engineer & an enthusiastic DataScientist - MachineLearning Engineer 🤖"
+    "Bio-Mechatronics Engineer & an enthusiastic DataScientist - ML Engineer 🤖"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1pMdLfbbw2r8eiN2Z0Z48SPFwjPb-zuGR/view?usp=sharing", // Set to empty to hide the button
@@ -69,7 +69,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Tableau",
-      fontAwesomeClassname: "fab fa-js"
+      fontAwesomeClassname: "fab fa-Tableau"
     },
     {
       skillName: "Numpy",
@@ -80,20 +80,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-MySql"
     },
     {
-      skillName: "Hadoop",
-      fontAwesomeClassname: "fas fa-C"
-    },
-    {
       skillName: "Python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-     {
-      skillName: "Apache",
       fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "TensorFlow",
-      fontAwesomeClassname: "fab fa-python"
+      fontAwesomeClassname: "fab fa-TensorFlow"
     },
     {
       skillName: "Java",
@@ -113,7 +105,7 @@ const educationInfo = {
       logo: require("./assets/images/asunews_119_img.png"),
       subHeader: "Bachelor Degree in Bio-Mechatronics Engineering",
       duration: "September 2015 - July 2020",
-      desc: "Participated in a Graduation Project with a collaboration between Ain shams University and Lincolin University in UK",
+      desc: "Was a part of a Graduation Project named Autonomous Agricultural Robot & its was a collaboration between Ain shams University and Lincolin University in UK",
      // descBullets: [
      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -128,26 +120,21 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Pandas", //Insert stack or technology you have experience in
+      Stack: "Data Analysis", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
      {
-      Stack: "Numpy", //Insert stack or technology you have experience in
-      progressPercentage: "75%" //Insert relative proficiency in percentage
+      Stack: "Tableau", //Insert stack or technology you have experience in
+      progressPercentage: "70%" //Insert relative proficiency in percentage
     },
     {
       Stack: "SQL",
-      progressPercentage: "75%"
+      progressPercentage: "85%"
     },
     {
       Stack: "Python",
       progressPercentage: "82%"
     },
-    {
-      Stack: "Jupyter Notebook",
-      progressPercentage: "85%"
-    },
-
   ],
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -155,32 +142,26 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: false, //Set it to true to show workExperiences Section
+  display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      role: "Mechatronics Engineer",
+      company: "Aerospace Aviation Research Centre",
+      //companylogo: require("./assets/images/quoraLogo.png"),
+      date: "Mar 2021 – Mar 2022",
+      desc: "Working as a mechatronics engineer in the Aviation Research \
+            centre, which is inside helwan factory for Developed industries,\
+            and my role was working as a Development & Maintenance\
+            Engineer mainly for the Avionics labs."
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Mechanical Team Member",
+      company: "Racing Team - AUV RoboSub Competition",
+      //companylogo: require("./assets/images/airbnbLogo.png"),
+      date: "2018 –  2019",
+      desc: "Working as mechanical team member in the Robosub\
+             competition, Robosub is a competition Where we build Fully\
+             Autonomous Underwater Vehicles."
     }
   ]
 };
@@ -223,7 +204,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -236,52 +217,39 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      title: "Advanced Data Analysis NanoDegree",
+      //image: require("./assets/images/codeInLogo.webp"),
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: "Udacity Certificate",
+          url: "https://drive.google.com/file/d/1vKrpmyH-eceiHhRao6bsh7vf0EbRK0Sf/view?usp=sharing"
         },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
-    },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+      title: "Data Analysis Professional NanoDegree",
+      //subtitle:
+      //  "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+      //image: require("./assets/images/googleAssistantLogo.webp"),
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Udacity Certificate",
+          url: "https://drive.google.com/file/d/1b5rFzdsD2vYKyVu_G_nk5M2xnKfaL8pS/view?usp=sharing"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Machine Learning NanoDegree",
+      subtitle: "Completion Certifcate from Udemy for ML program",
+      //image: require("./assets/images/pwaLogo.webp"),
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Certification", 
+          url: "https://drive.google.com/file/d/17VjrkHXsSeh77mQfHA9qNqG2GyEiGXQY/view?usp=sharing"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
