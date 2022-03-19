@@ -213,8 +213,7 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
-
+    "Achievements & Certifications I have done !",
   achievementsCards: [
     {
       title: "Advanced Data Analysis NanoDegree",
@@ -236,7 +235,6 @@ const achievementSection = {
         }
       ]
     },
-
     {
       title: "Machine Learning NanoDegree",
       subtitle: "Completion Certifcate from Udemy for ML program",
@@ -246,7 +244,7 @@ const achievementSection = {
           name: "Certification", 
           url: "https://drive.google.com/file/d/17VjrkHXsSeh77mQfHA9qNqG2GyEiGXQY/view?usp=sharing"
         }
-      ]
+      ]         
     }
   ],
   display: true // Set false to hide this section, defaults to true
