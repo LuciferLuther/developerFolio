@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ada9dc250e7ccd507451043a35c60cb6",
+    "revision": "83862e71b5968f43bde742f9b29495e7",
     "url": "/index.html"
   },
   {
-    "revision": "8bb31843457e70777509",
+    "revision": "048b2ef21a4dac4d8253",
     "url": "/static/css/3.df879eac.chunk.css"
   },
   {
-    "revision": "cf2e11cc96dff182c5da",
+    "revision": "a690cdd4102100c39379",
     "url": "/static/css/4.e91a4b36.chunk.css"
   },
   {
-    "revision": "9c23152d2600837901ad",
+    "revision": "070f97c8276557d0ecc0",
     "url": "/static/css/main.66262938.chunk.css"
   },
   {
-    "revision": "27a0b3f73bf8cd946337",
-    "url": "/static/js/2.e111be24.chunk.js"
+    "revision": "6530f17c5c505ef3a54a",
+    "url": "/static/js/2.4ed530ff.chunk.js"
   },
   {
     "revision": "6e1d2efc12a1ac972ff1f942df7eb0bd",
-    "url": "/static/js/2.e111be24.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.4ed530ff.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8bb31843457e70777509",
-    "url": "/static/js/3.1b0148c0.chunk.js"
+    "revision": "048b2ef21a4dac4d8253",
+    "url": "/static/js/3.89a454cb.chunk.js"
   },
   {
-    "revision": "cf2e11cc96dff182c5da",
-    "url": "/static/js/4.bd0259cb.chunk.js"
+    "revision": "a690cdd4102100c39379",
+    "url": "/static/js/4.9c4027eb.chunk.js"
   },
   {
-    "revision": "9c23152d2600837901ad",
-    "url": "/static/js/main.a7e3d24b.chunk.js"
+    "revision": "070f97c8276557d0ecc0",
+    "url": "/static/js/main.dd90f22e.chunk.js"
   },
   {
-    "revision": "37ac08b757d9da346a30",
-    "url": "/static/js/runtime-main.7e1d3afa.js"
+    "revision": "526e9ab424029d523a66",
+    "url": "/static/js/runtime-main.29cfe94e.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -52,12 +52,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/asunews_119_img.22996a8e.png"
   },
   {
+    "revision": "47a7a717679b640ceb1b05d38c480a61",
+    "url": "/static/media/codeInLogo.47a7a717.webp"
+  },
+  {
     "revision": "51cf7192327488da3d2a171280680c16",
     "url": "/static/media/contactMailDark.51cf7192.svg"
   },
   {
     "revision": "59389695208d7454c6607bed51ed4316",
     "url": "/static/media/developerActivity.59389695.svg"
+  },
+  {
+    "revision": "e79c639294c805688be731921368c8f8",
+    "url": "/static/media/googleAssistantLogo.e79c6392.webp"
   },
   {
     "revision": "52be31441c8cf8a8a16bd7a228d428bf",
