@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3f3afbdfbe421a58ec5bcb38eb9e37d2",
+    "revision": "6978f803e205a13e6f3fcdb9de98c642",
     "url": "/index.html"
   },
   {
-    "revision": "048b2ef21a4dac4d8253",
+    "revision": "5f067e83db6d15d7eddc",
     "url": "/static/css/3.df879eac.chunk.css"
   },
   {
-    "revision": "a690cdd4102100c39379",
+    "revision": "fc743e1cf3d5b9715e96",
     "url": "/static/css/4.e91a4b36.chunk.css"
   },
   {
-    "revision": "39e93aa72a8c50d0e2bf",
+    "revision": "2bbf4c399bddbbb976c9",
     "url": "/static/css/main.66262938.chunk.css"
   },
   {
-    "revision": "6530f17c5c505ef3a54a",
-    "url": "/static/js/2.4ed530ff.chunk.js"
+    "revision": "67c2dc2f06b9c5c258c4",
+    "url": "/static/js/2.2d6ce51d.chunk.js"
   },
   {
     "revision": "6e1d2efc12a1ac972ff1f942df7eb0bd",
-    "url": "/static/js/2.4ed530ff.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.2d6ce51d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "048b2ef21a4dac4d8253",
-    "url": "/static/js/3.89a454cb.chunk.js"
+    "revision": "5f067e83db6d15d7eddc",
+    "url": "/static/js/3.6717dbd6.chunk.js"
   },
   {
-    "revision": "a690cdd4102100c39379",
-    "url": "/static/js/4.9c4027eb.chunk.js"
+    "revision": "fc743e1cf3d5b9715e96",
+    "url": "/static/js/4.20b3dc7c.chunk.js"
   },
   {
-    "revision": "39e93aa72a8c50d0e2bf",
-    "url": "/static/js/main.b5fb3cda.chunk.js"
+    "revision": "2bbf4c399bddbbb976c9",
+    "url": "/static/js/main.6f0595b0.chunk.js"
   },
   {
-    "revision": "526e9ab424029d523a66",
-    "url": "/static/js/runtime-main.29cfe94e.js"
+    "revision": "2dde4737baf2b0838f23",
+    "url": "/static/js/runtime-main.b165f3de.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -74,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "829ad0a1deef4d7295adfecdf12df2be",
     "url": "/static/media/nextuLogo.829ad0a1.webp"
+  },
+  {
+    "revision": "ee62cb58630f29a6e6201b49d4c03728",
+    "url": "/static/media/pwaLogo.ee62cb58.webp"
   },
   {
     "revision": "25018d29d5ab115bc51c3e9a2d92f90f",
