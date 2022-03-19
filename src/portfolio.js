@@ -236,17 +236,6 @@ const achievementSection = {
           url: "https://drive.google.com/file/d/1b5rFzdsD2vYKyVu_G_nk5M2xnKfaL8pS/view?usp=sharing"
         }
       ]
-    },
-    {
-      title: "Machine Learning NanoDegree",
-      subtitle: "Completion Certifcate from Udemy",
-      //image: require("./assets/images/pwaLogo.webp"),
-      footerLink: [
-        {
-          name: "Certification", 
-          url: "https://drive.google.com/file/d/17VjrkHXsSeh77mQfHA9qNqG2GyEiGXQY/view?usp=sharing"
-        }
-      ]         
     }
   ],
   display: true // Set false to hide this section, defaults to true
