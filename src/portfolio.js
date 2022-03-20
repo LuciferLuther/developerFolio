@@ -7,14 +7,14 @@ import emoji from "react-easy-emoji";
 // Summary And Greeting Section
 
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: false // Set to false to use static SVG
 };
 
 const greeting = {
   username: "NaderSalama",
   title: "Hello There, I’m NaderSalama",
   subTitle: emoji(
-    "Bio-Mechatronics Engineer & an enthusiastic DataScientist - ML Engineer 🤖"
+    "I'm a Mechatronics Engineer & a passionate DataScientist - ML Engineer 🤖"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1pMdLfbbw2r8eiN2Z0Z48SPFwjPb-zuGR/view?usp=sharing", // Set to empty to hide the button
@@ -56,28 +56,12 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "Pandas",
-      fontAwesomeClassname: "fab fa-Pandas"
-    },
-    {
       skillName: "Tableau",
-      fontAwesomeClassname: "fab fa-Tableau"
-    },
-    {
-      skillName: "Numpy",
-      fontAwesomeClassname: "fab fa-Numpy"
+      fontAwesomeClassname: "fab fa-database"
     },
     {
       skillName: "PostgreSQL",
-      fontAwesomeClassname: "fas fa-MySql"
+      fontAwesomeClassname: "fas fa-database"
     },
     {
       skillName: "Python",
@@ -85,11 +69,19 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "TensorFlow",
-      fontAwesomeClassname: "fab fa-TensorFlow"
+      fontAwesomeClassname: "fab fa-desktop"
     },
     {
       skillName: "Java",
       fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "html-5",
+      fontAwesomeClassname: "fab fa-html5"
+    },
+    {
+      skillName: "css3",
+      fontAwesomeClassname: "fab fa-css3-alt"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -213,7 +205,7 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements, Certifications, and Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
@@ -246,7 +238,6 @@ const achievementSection = {
       subtitle: "Graduation Certificate from Udemy",
       image: require("./assets/images/udemy.png"),
       footerLink: [
-        {name: "Certification", url: ""},
         {
           name: "Certificate",
           url: "https://drive.google.com/file/d/17VjrkHXsSeh77mQfHA9qNqG2GyEiGXQY/view?usp=sharing"
