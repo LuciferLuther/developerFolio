@@ -147,7 +147,7 @@ const workExperiences = {
     {
       role: "Mechatronics Engineer",
       company: "Aerospace Aviation Research Centre",
-      //companylogo: require("./assets/images/quoraLogo.png"),
+      companylogo: require("./assets/images/download(1).jfif"),
       date: "Mar 2021 – Mar 2022",
       desc: "Working as a mechatronics engineer in the Aviation Research" +
             "centre, which is inside helwan factory for Developed industries,"+
@@ -157,7 +157,7 @@ const workExperiences = {
     {
       role: "Mechanical Team Member",
       company: "Racing Team - AUV RoboSub Competition",
-      //companylogo: require("./assets/images/airbnbLogo.png"),
+      companylogo: require("./assets/images/download.jfif"),
       date: "2018 –  2019",
       desc: "Working as mechanical team member in the Robosub"+
              "competition, Robosub is a competition Where we build Fully"+
