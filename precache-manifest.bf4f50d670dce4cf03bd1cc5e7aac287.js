@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "63c42ee7c5ed54965eeb030e03344774",
+    "revision": "58ebbbbb61b0b97a0abce967c1e94281",
     "url": "/index.html"
   },
   {
-    "revision": "405d77bed7687bfdaf83",
+    "revision": "072e0b65331d0a3add22",
     "url": "/static/css/3.df879eac.chunk.css"
   },
   {
-    "revision": "4f86de8502822817a581",
+    "revision": "7e4d26148fa2ee43de0f",
     "url": "/static/css/4.e91a4b36.chunk.css"
   },
   {
-    "revision": "eee74e42305619b5f552",
+    "revision": "5e092a836611ebe29ff5",
     "url": "/static/css/main.66262938.chunk.css"
   },
   {
-    "revision": "67606e66e8c67b00e34a",
-    "url": "/static/js/2.c523b2f9.chunk.js"
+    "revision": "2317a7662f802fe0443f",
+    "url": "/static/js/2.7eb4529a.chunk.js"
   },
   {
     "revision": "6e1d2efc12a1ac972ff1f942df7eb0bd",
-    "url": "/static/js/2.c523b2f9.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.7eb4529a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "405d77bed7687bfdaf83",
-    "url": "/static/js/3.cf9c83e3.chunk.js"
+    "revision": "072e0b65331d0a3add22",
+    "url": "/static/js/3.5bc25179.chunk.js"
   },
   {
-    "revision": "4f86de8502822817a581",
-    "url": "/static/js/4.651aed64.chunk.js"
+    "revision": "7e4d26148fa2ee43de0f",
+    "url": "/static/js/4.09e78f1c.chunk.js"
   },
   {
-    "revision": "eee74e42305619b5f552",
-    "url": "/static/js/main.8323e9e0.chunk.js"
+    "revision": "5e092a836611ebe29ff5",
+    "url": "/static/js/main.ecd3c479.chunk.js"
   },
   {
-    "revision": "a198b8b1b71994b561c0",
-    "url": "/static/js/runtime-main.024ed7c7.js"
+    "revision": "7e9eafdd41e6afe3a524",
+    "url": "/static/js/runtime-main.333923d9.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -48,12 +48,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Montserrat-Regular.ee653992.ttf"
   },
   {
-    "revision": "22996a8e470b22ecf4bf06a88e8a6526",
-    "url": "/static/media/asunews_119_img.22996a8e.png"
+    "revision": "bdb662c6229f12c963de7c14acfa3a99",
+    "url": "/static/media/Udacity.bdb662c6.png"
   },
   {
-    "revision": "47a7a717679b640ceb1b05d38c480a61",
-    "url": "/static/media/codeInLogo.47a7a717.webp"
+    "revision": "22996a8e470b22ecf4bf06a88e8a6526",
+    "url": "/static/media/asunews_119_img.22996a8e.png"
   },
   {
     "revision": "51cf7192327488da3d2a171280680c16",
@@ -64,20 +64,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/developerActivity.59389695.svg"
   },
   {
-    "revision": "e79c639294c805688be731921368c8f8",
-    "url": "/static/media/googleAssistantLogo.e79c6392.webp"
-  },
-  {
     "revision": "52be31441c8cf8a8a16bd7a228d428bf",
     "url": "/static/media/manOnTable.52be3144.svg"
   },
   {
     "revision": "829ad0a1deef4d7295adfecdf12df2be",
     "url": "/static/media/nextuLogo.829ad0a1.webp"
-  },
-  {
-    "revision": "ee62cb58630f29a6e6201b49d4c03728",
-    "url": "/static/media/pwaLogo.ee62cb58.webp"
   },
   {
     "revision": "40d17f73ad93fa9b187145a09d6a97da",
@@ -94,5 +86,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "13780cdd0144cacdef25486e2c2503f8",
     "url": "/static/media/talksCardBack.13780cdd.svg"
+  },
+  {
+    "revision": "a9d8fd59cd6c4978838f8754de0b6ea7",
+    "url": "/static/media/udemy.a9d8fd59.png"
   }
 ]);
