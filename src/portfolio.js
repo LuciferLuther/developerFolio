@@ -14,7 +14,7 @@ const greeting = {
   username: "NaderSalama",
   title: "Hello There, I’m NaderSalama",
   subTitle: emoji(
-    "I'm a Mechatronics Engineer & a passionate DataScientist - ML Engineer 🤖"
+    "I'm a Mechatronics Engineer & a passionate DataScientist | ML Engineer🤖"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1pMdLfbbw2r8eiN2Z0Z48SPFwjPb-zuGR/view?usp=sharing", // Set to empty to hide the button
@@ -191,7 +191,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
