@@ -149,19 +149,19 @@ const workExperiences = {
       company: "Aerospace Aviation Research Centre",
       //companylogo: require("./assets/images/quoraLogo.png"),
       date: "Mar 2021 – Mar 2022",
-      desc: "Working as a mechatronics engineer in the Aviation Research \
-            centre, which is inside helwan factory for Developed industries,\
-            and my role was working as a Development & Maintenance\
-            Engineer mainly for the Avionics labs."
+      desc: "Working as a mechatronics engineer in the Aviation Research" +
+            "centre, which is inside helwan factory for Developed industries,"+
+            "and my role was working as a Development & Maintenance"+
+            "Engineer mainly for the Avionics labs."
     },
     {
       role: "Mechanical Team Member",
       company: "Racing Team - AUV RoboSub Competition",
       //companylogo: require("./assets/images/airbnbLogo.png"),
       date: "2018 –  2019",
-      desc: "Working as mechanical team member in the Robosub\
-             competition, Robosub is a competition Where we build Fully\
-             Autonomous Underwater Vehicles."
+      desc: "Working as mechanical team member in the Robosub"+
+             "competition, Robosub is a competition Where we build Fully"+
+             "Autonomous Underwater Vehicles."
     }
   ]
 };
