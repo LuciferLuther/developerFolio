@@ -40,7 +40,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "I'm always seeking to learing new things & solve problem & projects that can increase my knowldge & experience ,I'm currently aiming for achieving AWS Certified Cloud Practitioner, so that i can increase my fields of knowledge even further",
+  subTitle: "I'm always seeking to learing new things & solve problem & projects that can increase my knowldge & experience ,I'm currently aiming to become a Certified Data Scientist",
   skills: [
     emoji(
       "⚡ Mine and analyze data from company databases to drive optimization and improvement of product development, marketing techniques and business strategies."
