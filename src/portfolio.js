@@ -17,7 +17,7 @@ const greeting = {
     "I'm a Mechatronics Engineer & a passionate DataScientist | ML Engineer🤖"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1goIShzPgFFCGendo0iHkOYgDTgQyedAU/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1nOS8UWtG9MrVHhIElCphf23fknmTIqvb/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
