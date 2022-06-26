@@ -4,7 +4,7 @@
 
 import emoji from "react-easy-emoji";
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">;
 
 // Summary And Greeting Section
 
@@ -71,7 +71,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "TensorFlow",
-      <i class="devicon-tensorflow-original colored"></i>
+      <i class="devicon-tensorflow-original colored"></i>;
     },
     {
       skillName: "Java",
