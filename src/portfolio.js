@@ -4,6 +4,8 @@
 
 import emoji from "react-easy-emoji";
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
 // Summary And Greeting Section
 
 const illustration = {
@@ -69,15 +71,15 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "TensorFlow",
-      fontAwesomeClassname: "fab fa-desktop"
+      <i class="devicon-tensorflow-original colored"></i>
     },
     {
       skillName: "Java",
       fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "C++",
+      fontAwesomeClassname: "fab fa-c++"
     },
     {
       skillName: "css3",
@@ -116,11 +118,11 @@ const techStack = {
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
      {
-      Stack: "Tableau", //Insert stack or technology you have experience in
+      Stack: "Machine Learning", //Insert stack or technology you have experience in
       progressPercentage: "70%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "SQL",
+      Stack: "Data Structures",
       progressPercentage: "85%"
     },
     {
@@ -146,7 +148,7 @@ const workExperiences = {
     {
       role: "Mechanical Team Member",
       company: "Racing Team - AUV RoboSub Competition",
-      companylogo: require("./assets/images/racing team.jpeg"),
+      companylogo: require("./assets/images/arc.png"),
       date: "2018 –  2019",
       desc: "Working as mechanical team member in the Robosub competition, Robosub is a competition Where we build Fully Autonomous Underwater Vehicles."
     }
@@ -164,8 +166,8 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "My Projects",
+  subtitle: "Different Projects that I have done",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
@@ -191,7 +193,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -264,7 +266,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -283,7 +285,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -296,7 +298,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
