@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c85165370b4b804507a1724bcf093143",
+    "revision": "3eaee5bfe4a82e826eebcbb404211abe",
     "url": "/index.html"
   },
   {
-    "revision": "072e0b65331d0a3add22",
+    "revision": "5f067e83db6d15d7eddc",
     "url": "/static/css/3.df879eac.chunk.css"
   },
   {
-    "revision": "7e4d26148fa2ee43de0f",
+    "revision": "fc743e1cf3d5b9715e96",
     "url": "/static/css/4.e91a4b36.chunk.css"
   },
   {
-    "revision": "e9c8a38322c5302b587f",
+    "revision": "1144647dc5139dbfad5f",
     "url": "/static/css/main.66262938.chunk.css"
   },
   {
-    "revision": "2317a7662f802fe0443f",
-    "url": "/static/js/2.7eb4529a.chunk.js"
+    "revision": "93b39d66faa2e59e5f9d",
+    "url": "/static/js/2.dd3d55d3.chunk.js"
   },
   {
     "revision": "6e1d2efc12a1ac972ff1f942df7eb0bd",
-    "url": "/static/js/2.7eb4529a.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.dd3d55d3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "072e0b65331d0a3add22",
-    "url": "/static/js/3.5bc25179.chunk.js"
+    "revision": "5f067e83db6d15d7eddc",
+    "url": "/static/js/3.6717dbd6.chunk.js"
   },
   {
-    "revision": "7e4d26148fa2ee43de0f",
-    "url": "/static/js/4.09e78f1c.chunk.js"
+    "revision": "fc743e1cf3d5b9715e96",
+    "url": "/static/js/4.20b3dc7c.chunk.js"
   },
   {
-    "revision": "e9c8a38322c5302b587f",
-    "url": "/static/js/main.3a4aecd7.chunk.js"
+    "revision": "1144647dc5139dbfad5f",
+    "url": "/static/js/main.75e8df64.chunk.js"
   },
   {
-    "revision": "7e9eafdd41e6afe3a524",
-    "url": "/static/js/runtime-main.333923d9.js"
+    "revision": "2dde4737baf2b0838f23",
+    "url": "/static/js/runtime-main.b165f3de.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -70,10 +70,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "829ad0a1deef4d7295adfecdf12df2be",
     "url": "/static/media/nextuLogo.829ad0a1.webp"
-  },
-  {
-    "revision": "40d17f73ad93fa9b187145a09d6a97da",
-    "url": "/static/media/racing team.40d17f73.jpeg"
   },
   {
     "revision": "25018d29d5ab115bc51c3e9a2d92f90f",
