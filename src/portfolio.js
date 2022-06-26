@@ -14,7 +14,7 @@ const greeting = {
   username: "NaderSalama",
   title: "Hello There, I’m NaderSalama",
   subTitle: emoji(
-    "I'm a Mechatronics Engineer & an enthusiastic Data Scientist 👨‍🔬📊    " +
+    "I'm a Mechatronics Engineer & an enthusiastic Data Scientist 👨‍🔬📊 <br />" +
     "Who is passionate about exploring the wonders of Data Science, Machine Learning & AI with the aim of making the world a better place one day 🌟"
   ),
   resumeLink:
@@ -40,7 +40,7 @@ const socialMediaLinks = {
 
 
 const skillsSection = {
-  title: "What I do",
+  title: "What I do", 
   subTitle: "I'm always seeking to learing new things & solve problem & projects that can increase my knowldge & experience ,I'm currently aiming to become a Certified Data Scientist",
   skills: [
     emoji(
