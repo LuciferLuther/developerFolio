@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f6fd3787d70a0387f2081feeeaae4a4e",
+    "revision": "19452b09ebe26cb7fe66fb8a5d356f94",
     "url": "/index.html"
   },
   {
-    "revision": "072e0b65331d0a3add22",
+    "revision": "f1467120c1949125ccf7",
     "url": "/static/css/3.df879eac.chunk.css"
   },
   {
-    "revision": "7e4d26148fa2ee43de0f",
+    "revision": "08124f85392cc521569f",
     "url": "/static/css/4.e91a4b36.chunk.css"
   },
   {
-    "revision": "a5faa2b08e9bcc87f641",
+    "revision": "c5accf6376db26995a85",
     "url": "/static/css/main.66262938.chunk.css"
   },
   {
-    "revision": "31677ef32b1a60b8604e",
-    "url": "/static/js/2.cb6ab54b.chunk.js"
+    "revision": "833caf6f1f3ae7a0b514",
+    "url": "/static/js/2.900e0273.chunk.js"
   },
   {
     "revision": "6e1d2efc12a1ac972ff1f942df7eb0bd",
-    "url": "/static/js/2.cb6ab54b.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.900e0273.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "072e0b65331d0a3add22",
-    "url": "/static/js/3.5bc25179.chunk.js"
+    "revision": "f1467120c1949125ccf7",
+    "url": "/static/js/3.eb3ba21e.chunk.js"
   },
   {
-    "revision": "7e4d26148fa2ee43de0f",
-    "url": "/static/js/4.09e78f1c.chunk.js"
+    "revision": "08124f85392cc521569f",
+    "url": "/static/js/4.221f4606.chunk.js"
   },
   {
-    "revision": "a5faa2b08e9bcc87f641",
-    "url": "/static/js/main.b59a55f8.chunk.js"
+    "revision": "c5accf6376db26995a85",
+    "url": "/static/js/main.4165b68f.chunk.js"
   },
   {
-    "revision": "7e9eafdd41e6afe3a524",
-    "url": "/static/js/runtime-main.333923d9.js"
+    "revision": "12c0d7bd038831784a29",
+    "url": "/static/js/runtime-main.5c1065cc.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
     "url": "/static/media/Montserrat-Regular.ee653992.ttf"
+  },
+  {
+    "revision": "2a01ae918f3eae3f4d5d8b1167067624",
+    "url": "/static/media/Racing Team Logo.2a01ae91.png"
   },
   {
     "revision": "bdb662c6229f12c963de7c14acfa3a99",
