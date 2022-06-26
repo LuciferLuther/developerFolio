@@ -14,7 +14,8 @@ const greeting = {
   username: "NaderSalama",
   title: "Hello There, I’m NaderSalama",
   subTitle: emoji(
-    "I'm a Mechatronics Engineer & a passionate DataScientist | ML Engineer🤖"
+    "I'm a Mechatronics Engineer & an enthusiastic Data Scientist 👨‍🔬📊" +
+    "<br> Who is passionate about exploring the wonders of Data Science, Machine Learning & AI with the aim of making the world a better place one day 🌟"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1nOS8UWtG9MrVHhIElCphf23fknmTIqvb/view?usp=sharing", // Set to empty to hide the button
@@ -136,19 +137,33 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+        {
+      role: "Software Engineer",
+      company: "Manara",
+      companylogo: require("./assets/images/arc.png"),
+      date: "May 2022",
+      desc: "I am participating in the Manara programme as a software engineer in order to advance and better my career as a software engineer and to achieve my dream of working for an FAANG organisation."
+    },
+        {
+      role: "Business Analyst & Data Scientist",
+      company: "The Sparks Foundation",
+      companylogo: require("./assets/images/arc.png"),
+      date: "April 2022 – May 2022",
+      desc: "Data Analysis · Machine Learning · Python"
+    },
     {
       role: "Mechatronics Engineer",
       company: "Aerospace Aviation Research Centre",
       companylogo: require("./assets/images/arc.png"),
       date: "Mar 2021 – Mar 2022",
-      desc: "Working as a mechatronics engineer in the Aviation Research centre, which is inside helwan factory for Developed industries, and my role was working as a Development & Maintenance Engineer mainly for the Avionics labs."
+      desc: "I was working as a mechatronics engineer in the Aviation Research Centre, which is inside the Helwan factory for developed industries, and my role was working as a Development & Maintenance Engineer mainly for the Avionics labs."
     },
     {
       role: "Mechanical Team Member",
       company: "Racing Team - AUV RoboSub Competition",
-      companylogo: require("./assets/images/arc.png"),
+      companylogo: require("./assets/images/Racing Team Logo.jpg"),
       date: "2018 –  2019",
-      desc: "Working as mechanical team member in the Robosub competition, Robosub is a competition Where we build Fully Autonomous Underwater Vehicles."
+      desc: "I was working as a mechanical team member in the Robosub competition. Robosub is a competition where we build fully autonomous underwater vehicles."
     }
   ]
 };
@@ -283,7 +298,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -296,7 +311,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
