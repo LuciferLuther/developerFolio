@@ -12,7 +12,7 @@ const illustration = {
 
 const greeting = {
   username: "NaderSalama",
-  title: "Hello There, I’m NaderSalama",
+  title: "Hello There, I’m Nader Salama",
   subTitle:
     "I'm a Mechatronics Engineer & an enthusiastic Data Scientist & Machine learning Engineer👨‍🔬" +
     'Who is passionate about exploring the wonders of Data Science, Machine Learning & AI with the aim of making the world a better place one day 🌟'
@@ -169,7 +169,7 @@ const openSource = {
 // Blogs Section
 
 const blogSection = {
-  title: "Projects & Accomplishments",
+  title: emoji("Projects & Accomplishments 🎯"),
   subtitle:
     "",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
@@ -221,7 +221,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -230,8 +230,8 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, and Some Cool Stuff that I have done !",
-
+    "Achievements, Certifications",
+Sparks_Intern_Certificate.png
   achievementsCards: [
     {
       title: "Advanced Data Analysis NanoDegree",
@@ -240,9 +240,21 @@ const achievementSection = {
       image: require("./assets/images/Udacity.png"),
       footerLink: [
         {
-          name: "Certificate",
+          name: "Show Me",
           url: "https://drive.google.com/file/d/1vKrpmyH-eceiHhRao6bsh7vf0EbRK0Sf/view?usp=sharing"
         },
+      ]
+    },
+    {
+      title: "The Sparks Foundation Internship",
+      subtitle:
+        "Certificate of completion from The Sparks Foundation",
+      image: require("./assets/images/Sparks_Intern_Certificate.png"),
+      footerLink: [
+        {
+          name: "Show Me",
+          url: "https://drive.google.com/file/d/13ePPnc91-Z98BhbLnFqr661C1nvrV_7i/view?usp=sharing"
+        }
       ]
     },
     {
@@ -252,7 +264,7 @@ const achievementSection = {
       image: require("./assets/images/Udacity.png"),
       footerLink: [
         {
-          name: "Certificate",
+          name: "Show Me",
           url: "https://drive.google.com/file/d/1b5rFzdsD2vYKyVu_G_nk5M2xnKfaL8pS/view?usp=sharing"
         }
       ]
@@ -264,7 +276,7 @@ const achievementSection = {
       image: require("./assets/images/udemy.png"),
       footerLink: [
         {
-          name: "Certificate",
+          name: "Show Me",
           url: "https://drive.google.com/file/d/17VjrkHXsSeh77mQfHA9qNqG2GyEiGXQY/view?usp=sharing"
         }
       ]
