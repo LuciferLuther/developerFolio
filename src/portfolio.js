@@ -70,7 +70,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "TensorFlow",
-      fontAwesomeClassname: "fab fa-duotone fa-brain-circuit"
+      fontAwesomeClassname: "fab fa-brain-circuit"
     },
     {
       skillName: "Java",
@@ -144,7 +144,7 @@ const workExperiences = {
         {
       role: "Business Analyst & Data Scientist",
       company: "The Sparks Foundation",
-      companylogo: require("./assets/images/Sparks.jpg "),
+      companylogo: require("./assets/images/Sparks.jpg"),
       date: "April 2022 – May 2022",
       desc: "Data Analysis · Machine Learning · Python"
     },
