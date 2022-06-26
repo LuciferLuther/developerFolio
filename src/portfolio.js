@@ -13,11 +13,11 @@ const illustration = {
 const greeting = {
   username: "NaderSalama",
   title: "Hello There, I’m NaderSalama",
-  subTitle: emoji(
-    ["Im a Mechatronics Engineer & an enthusiastic Data Scientist 👨‍🔬📊",
+  subTitle:
+    "Im a Mechatronics Engineer & an enthusiastic Data Scientist 👨‍🔬📊" +
      
-     'Who is passionate about exploring the wonders of Data Science, Machine Learning & AI with the aim of making the world a better place one day 🌟']
-  ),
+     'Who is passionate about exploring the wonders of Data Science, Machine Learning & AI with the aim of making the world a better place one day 🌟'
+  ,
   resumeLink:
     "https://drive.google.com/file/d/1nOS8UWtG9MrVHhIElCphf23fknmTIqvb/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
