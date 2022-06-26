@@ -1,51 +1,63 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5dfd0a17a94c2253bcb350503a81419c",
+    "revision": "ec9064a35b0dbf535313271a6b9eaa8e",
     "url": "/index.html"
   },
   {
-    "revision": "f1467120c1949125ccf7",
+    "revision": "79f37e4c6b0280f0e338",
     "url": "/static/css/3.df879eac.chunk.css"
   },
   {
-    "revision": "08124f85392cc521569f",
+    "revision": "03bba90ddfcb5aba7167",
     "url": "/static/css/4.e91a4b36.chunk.css"
   },
   {
-    "revision": "aea3145af3081f564820",
+    "revision": "266edc602c145770c30a",
     "url": "/static/css/main.66262938.chunk.css"
   },
   {
-    "revision": "2028a3eab33eb1fc1b31",
-    "url": "/static/js/2.ca6f46b9.chunk.js"
+    "revision": "4bc4a43e6f014fe6bf82",
+    "url": "/static/js/2.737a4a71.chunk.js"
   },
   {
     "revision": "6e1d2efc12a1ac972ff1f942df7eb0bd",
-    "url": "/static/js/2.ca6f46b9.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.737a4a71.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f1467120c1949125ccf7",
-    "url": "/static/js/3.eb3ba21e.chunk.js"
+    "revision": "79f37e4c6b0280f0e338",
+    "url": "/static/js/3.db57fbb6.chunk.js"
   },
   {
-    "revision": "08124f85392cc521569f",
-    "url": "/static/js/4.221f4606.chunk.js"
+    "revision": "03bba90ddfcb5aba7167",
+    "url": "/static/js/4.6d9e7a09.chunk.js"
   },
   {
-    "revision": "aea3145af3081f564820",
-    "url": "/static/js/main.4c6d9355.chunk.js"
+    "revision": "266edc602c145770c30a",
+    "url": "/static/js/main.8bf5fa51.chunk.js"
   },
   {
-    "revision": "12c0d7bd038831784a29",
-    "url": "/static/js/runtime-main.5c1065cc.js"
+    "revision": "f25da7ca835c2621b142",
+    "url": "/static/js/runtime-main.6e54c5c9.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
     "url": "/static/media/Agustina.21f233e1.woff"
   },
   {
+    "revision": "18ef01ce40c8eaaca659761420e5a1ac",
+    "url": "/static/media/BLP.18ef01ce.png"
+  },
+  {
     "revision": "4ac999d75204996c0f0753de2ba4acaa",
     "url": "/static/media/Dashboard White.4ac999d7.JPG"
+  },
+  {
+    "revision": "b657a4ec2f57294b8525e6f7751efdaf",
+    "url": "/static/media/LOR Sparks.b657a4ec.png"
+  },
+  {
+    "revision": "a56dccb1f5e84761c936b8c9018ec034",
+    "url": "/static/media/ML Cross-Skilling.a56dccb1.png"
   },
   {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
