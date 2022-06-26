@@ -7,7 +7,7 @@ import emoji from "react-easy-emoji";
 // Summary And Greeting Section
 
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: false // Set to false to use static SVG
 };
 
 const greeting = {
@@ -15,7 +15,7 @@ const greeting = {
   title: "Hello There, I’m NaderSalama",
   subTitle: emoji(
     "I'm a Mechatronics Engineer & an enthusiastic Data Scientist 👨‍🔬📊" +
-    "Who is passionate about exploring the wonders of Data Science, Machine Learning & AI with the aim of making the world a better place one day 🌟"
+    "\n Who is passionate about exploring the wonders of Data Science, Machine Learning & AI with the aim of making the world a better place one day 🌟"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1nOS8UWtG9MrVHhIElCphf23fknmTIqvb/view?usp=sharing", // Set to empty to hide the button
@@ -95,7 +95,7 @@ const educationInfo = {
       subHeader: "Bachelor Degree in Bio-Mechatronics Engineering",
       duration: "September 2015 - July 2020",
       desc: "My graduation project was a collaboration between Ain shams University and Lincolin University in UK"+
-      "The major goal of this collaborative project between Ain Shams University and Lincoln University is to construct a four-wheeled modular autonomous fruit harvesting robot",
+      " The major goal of this collaborative project between Ain Shams University and Lincoln University is to construct a four-wheeled modular autonomous fruit harvesting robot",
      // descBullets: [
      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -107,7 +107,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: false, //Set it to true to show Proficiency Section
+  viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Data Analysis", //Insert stack or technology you have experience in
@@ -227,7 +227,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
