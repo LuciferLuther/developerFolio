@@ -47,7 +47,7 @@ const skillsSection = {
     ),
     emoji("⚡ Use predictive modeling to increase and optimize customer experiences, revenue generation, ad targeting and other business outcomes."),
     emoji(
-      "⚡ Develop processes and tools to monitor and analyze model performance and data accuracy."
+      "⚡ Develop processes and tools to monitor and analyze different model performance metrics."
     )
   ],
 
@@ -69,7 +69,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "TensorFlow",
-      <i class="devicon-tensorflow-original colored"></i>;
+      fontAwesomeClassname: "fab fa-duotone fa-brain-circuit"
     },
     {
       skillName: "Java",
