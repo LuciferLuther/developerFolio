@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1ff74ce2d737e23bcf8c5e3ebf15f357",
+    "revision": "2a7a8ad2e4538d41bf113453da125b08",
     "url": "/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/4.e91a4b36.chunk.css"
   },
   {
-    "revision": "c3412769844d9d63d116",
+    "revision": "ebb82e3c4faea85b81b6",
     "url": "/static/css/main.66262938.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/4.221f4606.chunk.js"
   },
   {
-    "revision": "c3412769844d9d63d116",
-    "url": "/static/js/main.1e73da1f.chunk.js"
+    "revision": "ebb82e3c4faea85b81b6",
+    "url": "/static/js/main.0d4b0bce.chunk.js"
   },
   {
     "revision": "12c0d7bd038831784a29",
@@ -44,12 +44,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Agustina.21f233e1.woff"
   },
   {
-    "revision": "ee6539921d713482b8ccd4d0d23961bb",
-    "url": "/static/media/Montserrat-Regular.ee653992.ttf"
+    "revision": "4ac999d75204996c0f0753de2ba4acaa",
+    "url": "/static/media/Dashboard White.4ac999d7.JPG"
   },
   {
-    "revision": "2a01ae918f3eae3f4d5d8b1167067624",
-    "url": "/static/media/Racing Team Logo.2a01ae91.png"
+    "revision": "ee6539921d713482b8ccd4d0d23961bb",
+    "url": "/static/media/Montserrat-Regular.ee653992.ttf"
   },
   {
     "revision": "bdb662c6229f12c963de7c14acfa3a99",
