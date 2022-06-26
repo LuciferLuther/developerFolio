@@ -232,10 +232,22 @@ const achievementSection = {
   subtitle:
     "Achievements, Certifications",
   achievementsCards: [
+     {
+      title: "Supervised & Unsupervised Machine Learning",
+      subtitle:
+        "Certificate of completion from Udacity",
+      image: require("./assets/images/ML Cross-Skilling.png"),
+      footerLink: [
+        {
+          name: "Show Me",
+          url: "https://drive.google.com/file/d/1Rw4QxMEWl7PCLuSPF6278K5OpmZBKRNX/view?usp=sharing"
+        },
+      ]
+    },
     {
       title: "Advanced Data Analysis NanoDegree",
       subtitle:
-        "Graduation Certificate from Udacity",
+        "Certificate of completion from Udacity",
       image: require("./assets/images/Udacity.png"),
       footerLink: [
         {
@@ -256,10 +268,22 @@ const achievementSection = {
         }
       ]
     },
+     {
+      title: "The Sparks Foundation Internship",
+      subtitle:
+        "Recommendation Letter from The Sparks Foundation",
+      image: require("./assets/images/LOR Sparks.png"),
+      footerLink: [
+        {
+          name: "Show Me",
+          url: "https://drive.google.com/file/d/1WxUmEfQ-2Q3vNm2rKq6MxRkz7-qcGDqX/view?usp=sharing"
+        }
+      ]
+    },
     {
       title: "Data Analysis Professional NanoDegree",
       subtitle:
-        "Graduation Certificate from Udacity",
+        "Certificate of completion from Udacity",
       image: require("./assets/images/Udacity.png"),
       footerLink: [
         {
@@ -268,15 +292,26 @@ const achievementSection = {
         }
       ]
     },
-
     {
       title: "Machine Learning NanoDegree",
-      subtitle: "Graduation Certificate from Udemy",
+      subtitle:
+        "Certificate of completion from Udemy",
       image: require("./assets/images/udemy.png"),
       footerLink: [
         {
           name: "Show Me",
           url: "https://drive.google.com/file/d/17VjrkHXsSeh77mQfHA9qNqG2GyEiGXQY/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      title: "Business Language Program",
+      subtitle: "Certificate of completion from Sprints",
+      image: require("./assets/images/BLP.png"),
+      footerLink: [
+        {
+          name: "Show Me",
+          url: "https://drive.google.com/file/d/1nkvXaZ-LcICVTqi6FK_ygWL_rof_O40E/view?usp=sharing"
         }
       ]
     }
