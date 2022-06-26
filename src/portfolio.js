@@ -231,7 +231,6 @@ const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
     "Achievements, Certifications",
-Sparks_Intern_Certificate.png
   achievementsCards: [
     {
       title: "Advanced Data Analysis NanoDegree",
