@@ -14,9 +14,8 @@ const greeting = {
   username: "NaderSalama",
   title: "Hello There, I’m NaderSalama",
   subTitle:
-    "I'm a Mechatronics Engineer & an enthusiastic Data Scientist & ML Engineer👨‍🔬" +
-    
-     '   Who is passionate about exploring the wonders of Data Science, Machine Learning & AI with the aim of making the world a better place one day 🌟'
+    "I'm a Mechatronics Engineer & an enthusiastic Data Scientist & Machine learning Engineer👨‍🔬" +
+    'Who is passionate about exploring the wonders of Data Science, Machine Learning & AI with the aim of making the world a better place one day 🌟'
   ,
   resumeLink:
     "https://drive.google.com/file/d/1nOS8UWtG9MrVHhIElCphf23fknmTIqvb/view?usp=sharing", // Set to empty to hide the button
@@ -71,7 +70,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "TensorFlow",
-      fontAwesomeClassname: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
+      fontAwesomeClassname: "tensorflow-original.svg"
     },
     {
       skillName: "Java",
@@ -79,7 +78,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "C++",
-      fontAwesomeClassname: "fab fa-c++"
+      fontAwesomeClassname: "fab fa-C++"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -155,12 +154,6 @@ const workExperiences = {
       companylogo: require("./assets/images/arc.png"),
       date: "Mar 2021 – Mar 2022",
       desc: "I was working as a mechatronics engineer in the Aviation Research Centre, which is inside the Helwan factory for developed industries, and my role was working as a Development & Maintenance Engineer mainly for the Avionics labs."
-    },
-    {
-      role: "Mechanical Team Member",
-      company: "Racing Team - AUV RoboSub Competition",
-      date: "2018 –  2019",
-      desc: "I was working as a mechanical team member in the Robosub competition. Robosub is a competition where we build fully autonomous underwater vehicles."
     }
   ]
 };
@@ -189,7 +182,7 @@ const blogSection = {
         "A descriptive Power Bi Dashboard that explains various aspects that affect sales and profit"
     },
     {
-      url: "shorturl.at/vxGM1",
+      url: "https://deepnote.com/@nadersalama-lucifer/Credit-Card-Approval-ec91b3b9-a743-4996-926f-3f4e957417a2",
       title: "Predicting Credit Card Approvals",
       description:
         "Build a machine learning model to predict if a credit card application will get approved."
@@ -205,13 +198,13 @@ const bigProjects = {
   subtitle: "Different Projects that I have done",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/Dashboard White.JPG"),
+      projectName: "Retail - Sales Performance",
+      projectDesc: "A descriptive Power Bi Dashboard that explains various aspects that affect sales and profit",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Show Me",
+          url: "https://drive.google.com/file/d/10csrueqScmqWPe98zqnrlaLyco6nUvrI/view?usp=sharing"
         }
         //  you can add extra buttons here.
       ]
@@ -228,7 +221,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
