@@ -14,7 +14,7 @@ const greeting = {
   username: "NaderSalama",
   title: "Hello There, I’m NaderSalama",
   subTitle:
-    "Im a Mechatronics Engineer & an enthusiastic Data Scientist 👨‍🔬📊" +
+    "I'm a Mechatronics Engineer & an enthusiastic Data Scientist & ML Engineer 👨‍🔬📊" +
      
      'Who is passionate about exploring the wonders of Data Science, Machine Learning & AI with the aim of making the world a better place one day 🌟'
   ,
