@@ -15,7 +15,7 @@ const greeting = {
   title: "Hello There, I’m NaderSalama",
   subTitle: emoji(
     "I'm a Mechatronics Engineer & an enthusiastic Data Scientist 👨‍🔬📊" +
-    "<br> Who is passionate about exploring the wonders of Data Science, Machine Learning & AI with the aim of making the world a better place one day 🌟"
+    "Who is passionate about exploring the wonders of Data Science, Machine Learning & AI with the aim of making the world a better place one day 🌟"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1nOS8UWtG9MrVHhIElCphf23fknmTIqvb/view?usp=sharing", // Set to empty to hide the button
@@ -79,10 +79,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "C++",
       fontAwesomeClassname: "fab fa-c++"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -98,7 +94,8 @@ const educationInfo = {
       logo: require("./assets/images/asunews_119_img.png"),
       subHeader: "Bachelor Degree in Bio-Mechatronics Engineering",
       duration: "September 2015 - July 2020",
-      desc: "Was a part of a Graduation Project named Autonomous Agricultural Robot & its was a collaboration between Ain shams University and Lincolin University in UK",
+      desc: "My graduation project was a collaboration between Ain shams University and Lincolin University in UK"+
+      "The major goal of this collaborative project between Ain Shams University and Lincoln University is to construct a four-wheeled modular autonomous fruit harvesting robot",
      // descBullets: [
      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -110,7 +107,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Data Analysis", //Insert stack or technology you have experience in
@@ -129,7 +126,7 @@ const techStack = {
       progressPercentage: "82%"
     }
   ],
-  displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -140,14 +137,14 @@ const workExperiences = {
         {
       role: "Software Engineer",
       company: "Manara",
-      companylogo: require("./assets/images/arc.png"),
+      companylogo: require("./assets/images/Manara.png"),
       date: "May 2022",
       desc: "I am participating in the Manara programme as a software engineer in order to advance and better my career as a software engineer and to achieve my dream of working for an FAANG organisation."
     },
         {
       role: "Business Analyst & Data Scientist",
       company: "The Sparks Foundation",
-      companylogo: require("./assets/images/arc.png"),
+      companylogo: require("./assets/images/Sparks.jpg "),
       date: "April 2022 – May 2022",
       desc: "Data Analysis · Machine Learning · Python"
     },
@@ -161,7 +158,7 @@ const workExperiences = {
     {
       role: "Mechanical Team Member",
       company: "Racing Team - AUV RoboSub Competition",
-      companylogo: require("./assets/images/Racing Team Logo.jpg"),
+      companylogo: require("./assets/images/Racing Team Logo.png"),
       date: "2018 –  2019",
       desc: "I was working as a mechanical team member in the Robosub competition. Robosub is a competition where we build fully autonomous underwater vehicles."
     }
@@ -173,6 +170,30 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  display: true // Set false to hide this section, defaults to true
+};
+
+// Blogs Section
+
+const blogSection = {
+  title: "Blogs",
+  subtitle:
+    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  blogs: [
+    {
+      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      description:
+        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+    },
+    {
+      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+      title: "Why REACT is The Best?",
+      description:
+        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+    }
+  ],
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -258,30 +279,6 @@ const achievementSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
-// Blogs Section
-
-const blogSection = {
-  title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
-  blogs: [
-    {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
-
 // Talks Sections
 
 const talkSection = {
@@ -337,9 +334,9 @@ export {
   techStack,
   workExperiences,
   openSource,
+  blogSection,
   bigProjects,
   achievementSection,
-  blogSection,
   talkSection,
   podcastSection,
   contactInfo,
