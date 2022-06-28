@@ -58,15 +58,15 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "Data Analysis",
-      fontAwesomeClassname: "fas fa-analytics"
+      fontAwesomeClassname: "fas fa-file-chart-line"
     },
     {
       skillName: "Tableau",
-      fontAwesomeClassname: "far fa-database"
+      fontAwesomeClassname: "fas fa-presentation"
     },
     {
       skillName: "PostgreSQL",
-      fontAwesomeClassname: "far fa-database"
+      fontAwesomeClassname: "fas fa-tasks-alt"
     },
     {
       skillName: "Python",
@@ -107,10 +107,10 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: false, //Set it to true to show Proficiency Section
+  viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Data Analysis", //Insert stack or technology you have experience in
+      Stack: "Exploratory Data Analysis", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
      {
