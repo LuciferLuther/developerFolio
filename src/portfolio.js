@@ -224,7 +224,7 @@ const achievementSection = {
       ]
     },
      {
-      title: "Supervised & Unsupervised Machine Learning",
+      title: "Supervised & Unsupervised Machine Learning Nano-Degree",
       subtitle:
         "Certificate of completion from Udacity",
       image: require("./assets/images/ML Cross-Skilling.png"),
@@ -236,7 +236,7 @@ const achievementSection = {
       ]
     },
     {
-      title: "Advanced Data Analysis NanoDegree",
+      title: "Advanced Data Analysis Nano-Degree",
       subtitle:
         "Certificate of completion from Udacity",
       image: require("./assets/images/Advanced Data.jpeg"),
@@ -248,7 +248,7 @@ const achievementSection = {
       ]
     },
     {
-      title: "Data Analysis Professional NanoDegree",
+      title: "Data Analysis Professional Nano-Degree",
       subtitle:
         "Certificate of completion from Udacity",
       image: require("./assets/images/Professional Data.jpeg"),
@@ -260,7 +260,7 @@ const achievementSection = {
       ]
     },
     {
-      title: "Machine Learning NanoDegree",
+      title: "Machine Learning Nano-Degree",
       subtitle:
         "Certificate of completion from Udemy",
       image: require("./assets/images/ML Nanodegree.jpeg"),
@@ -286,7 +286,7 @@ const achievementSection = {
     {
       title: "Database Fundamentals",
       subtitle:
-        "Certificate of completion from ITI - Mahara Tech,
+        "Certificate of completion from ITI - Mahara Tech",
       image: require("./assets/images/Data Base.jpeg"),
       footerLink: [
         {
