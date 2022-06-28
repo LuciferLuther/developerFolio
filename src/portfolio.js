@@ -57,12 +57,16 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
+      skillName: "Data Analysis",
+      fontAwesomeClassname: "fas fa-analytics"
+    },
+    {
       skillName: "Tableau",
-      fontAwesomeClassname: "fab fa-database"
+      fontAwesomeClassname: "far fa-database"
     },
     {
       skillName: "PostgreSQL",
-      fontAwesomeClassname: "fas fa-database"
+      fontAwesomeClassname: "far fa-database"
     },
     {
       skillName: "Python",
@@ -70,18 +74,14 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "TensorFlow",
-      fontAwesomeClassname: "tensorflow-original.svg"
+      fontAwesomeClassname: "fas fa-brain"
     },
     {
       skillName: "Java",
       fontAwesomeClassname: "fab fa-java"
-    },
-    {
-      skillName: "C++",
-      fontAwesomeClassname: "fab fa-C++"
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Education Section
