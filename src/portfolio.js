@@ -40,7 +40,7 @@ const socialMediaLinks = {
 
 
 const skillsSection = {
-  title: "What I do", 
+  title: emoji("What I do 👨‍💻"), 
   subTitle: "I'm always seeking to learing new things & solve problem & projects that can increase my knowldge & experience ,I'm currently aiming to become a Certified Data Scientist",
   skills: [
     emoji(
@@ -81,7 +81,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-C++"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Education Section
@@ -191,6 +191,126 @@ const blogSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
+// Achievement Section
+// Include certificates, talks etc
+
+const achievementSection = {
+  title: emoji("Achievements And Certifications 🏆 "),
+  subtitle:
+    "Achievements, Certifications",
+  achievementsCards: [
+        {
+      title: "The Sparks Foundation Internship",
+      subtitle:
+        "Certificate of completion from The Sparks Foundation",
+      image: require("./assets/images/Sparks_Intern_Certificate.png"),
+      footerLink: [
+        {
+          name: "Show Me",
+          url: "https://drive.google.com/file/d/13ePPnc91-Z98BhbLnFqr661C1nvrV_7i/view?usp=sharing"
+        }
+      ]
+    },
+     {
+      title: "The Sparks Foundation Internship",
+      subtitle:
+        "Recommendation Letter from The Sparks Foundation",
+      image: require("./assets/images/LOR Sparks.png"),
+      footerLink: [
+        {
+          name: "Show Me",
+          url: "https://drive.google.com/file/d/1WxUmEfQ-2Q3vNm2rKq6MxRkz7-qcGDqX/view?usp=sharing"
+        }
+      ]
+    },
+     {
+      title: "Supervised & Unsupervised Machine Learning",
+      subtitle:
+        "Certificate of completion from Udacity",
+      image: require("./assets/images/ML Cross-Skilling.png"),
+      footerLink: [
+        {
+          name: "Show Me",
+          url: "https://drive.google.com/file/d/1Rw4QxMEWl7PCLuSPF6278K5OpmZBKRNX/view?usp=sharing"
+        },
+      ]
+    },
+    {
+      title: "Advanced Data Analysis NanoDegree",
+      subtitle:
+        "Certificate of completion from Udacity",
+      image: require("./assets/images/Advanced Data.jpeg"),
+      footerLink: [
+        {
+          name: "Show Me",
+          url: "https://drive.google.com/file/d/1vKrpmyH-eceiHhRao6bsh7vf0EbRK0Sf/view?usp=sharing"
+        },
+      ]
+    },
+    {
+      title: "Data Analysis Professional NanoDegree",
+      subtitle:
+        "Certificate of completion from Udacity",
+      image: require("./assets/images/Professional Data.jpeg"),
+      footerLink: [
+        {
+          name: "Show Me",
+          url: "https://drive.google.com/file/d/1b5rFzdsD2vYKyVu_G_nk5M2xnKfaL8pS/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      title: "Machine Learning NanoDegree",
+      subtitle:
+        "Certificate of completion from Udemy",
+      image: require("./assets/images/ML Nanodegree.jpeg"),
+      footerLink: [
+        {
+          name: "Show Me",
+          url: "https://drive.google.com/file/d/17VjrkHXsSeh77mQfHA9qNqG2GyEiGXQY/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      title: "Data Science Visualization",
+      subtitle:
+        "Certificate of completion from Udemy",
+      image: require("./assets/images/Data Analysis.jpg"),
+      footerLink: [
+        {
+          name: "Show Me",
+          url: "https://drive.google.com/file/d/1IDiF4MRIomPLQIkjLN7axVTexpvccjiq/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      title: "Database Fundamentals",
+      subtitle:
+        "Certificate of completion from ITI - Mahara Tech,
+      image: require("./assets/images/Data Base.jpeg"),
+      footerLink: [
+        {
+          name: "Show Me",
+          url: "https://drive.google.com/file/d/10a3Y9M0FdwHNbHCZYccuVtz1s0phG-48/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      title: "Business Language Program",
+      subtitle: "Certificate of completion from Sprints",
+      image: require("./assets/images/BLP.png"),
+      footerLink: [
+        {
+          name: "Show Me",
+          url: "https://drive.google.com/file/d/1nkvXaZ-LcICVTqi6FK_ygWL_rof_O40E/view?usp=sharing"
+        }
+      ]
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
+
+
 // Some big projects you have worked on
 
 const bigProjects = {
@@ -222,101 +342,6 @@ const bigProjects = {
     }
   ],
   display: false // Set false to hide this section, defaults to true
-};
-
-// Achievement Section
-// Include certificates, talks etc
-
-const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications",
-  achievementsCards: [
-     {
-      title: "Supervised & Unsupervised Machine Learning",
-      subtitle:
-        "Certificate of completion from Udacity",
-      image: require("./assets/images/ML Cross-Skilling.png"),
-      footerLink: [
-        {
-          name: "Show Me",
-          url: "https://drive.google.com/file/d/1Rw4QxMEWl7PCLuSPF6278K5OpmZBKRNX/view?usp=sharing"
-        },
-      ]
-    },
-    {
-      title: "Advanced Data Analysis NanoDegree",
-      subtitle:
-        "Certificate of completion from Udacity",
-      image: require("./assets/images/Udacity.png"),
-      footerLink: [
-        {
-          name: "Show Me",
-          url: "https://drive.google.com/file/d/1vKrpmyH-eceiHhRao6bsh7vf0EbRK0Sf/view?usp=sharing"
-        },
-      ]
-    },
-    {
-      title: "The Sparks Foundation Internship",
-      subtitle:
-        "Certificate of completion from The Sparks Foundation",
-      image: require("./assets/images/Sparks_Intern_Certificate.png"),
-      footerLink: [
-        {
-          name: "Show Me",
-          url: "https://drive.google.com/file/d/13ePPnc91-Z98BhbLnFqr661C1nvrV_7i/view?usp=sharing"
-        }
-      ]
-    },
-     {
-      title: "The Sparks Foundation Internship",
-      subtitle:
-        "Recommendation Letter from The Sparks Foundation",
-      image: require("./assets/images/LOR Sparks.png"),
-      footerLink: [
-        {
-          name: "Show Me",
-          url: "https://drive.google.com/file/d/1WxUmEfQ-2Q3vNm2rKq6MxRkz7-qcGDqX/view?usp=sharing"
-        }
-      ]
-    },
-    {
-      title: "Data Analysis Professional NanoDegree",
-      subtitle:
-        "Certificate of completion from Udacity",
-      image: require("./assets/images/Udacity.png"),
-      footerLink: [
-        {
-          name: "Show Me",
-          url: "https://drive.google.com/file/d/1b5rFzdsD2vYKyVu_G_nk5M2xnKfaL8pS/view?usp=sharing"
-        }
-      ]
-    },
-    {
-      title: "Machine Learning NanoDegree",
-      subtitle:
-        "Certificate of completion from Udemy",
-      image: require("./assets/images/udemy.png"),
-      footerLink: [
-        {
-          name: "Show Me",
-          url: "https://drive.google.com/file/d/17VjrkHXsSeh77mQfHA9qNqG2GyEiGXQY/view?usp=sharing"
-        }
-      ]
-    },
-    {
-      title: "Business Language Program",
-      subtitle: "Certificate of completion from Sprints",
-      image: require("./assets/images/BLP.png"),
-      footerLink: [
-        {
-          name: "Show Me",
-          url: "https://drive.google.com/file/d/1nkvXaZ-LcICVTqi6FK_ygWL_rof_O40E/view?usp=sharing"
-        }
-      ]
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
