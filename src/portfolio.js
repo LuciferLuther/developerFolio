@@ -18,7 +18,7 @@ const greeting = {
     'Who is passionate about exploring the wonders of Data Science, Machine Learning & AI with the aim of making the world a better place one day 🌟'
   ,
   resumeLink:
-    "https://drive.google.com/file/d/1GrVKvrz4ykSxJlwdtJgOvGdCBQPbQhKq/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1_EVKpn1GGATu8EQEutGpKxzmMOZ7ctZS/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
