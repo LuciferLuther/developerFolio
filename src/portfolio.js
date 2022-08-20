@@ -107,7 +107,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Exploratory Data Analysis", //Insert stack or technology you have experience in
@@ -149,11 +149,11 @@ const workExperiences = {
       desc: "Data Analysis · Machine Learning · Python"
     },
     {
-      role: "Mechatronics Engineer",
+      role: "Research and Development Engineer",
       company: "Aerospace Aviation Research Centre",
       companylogo: require("./assets/images/arc.png"),
       date: "Mar 2021 – Mar 2022",
-      desc: "I was working as a mechatronics engineer in the Aviation Research Centre, which is inside the Helwan factory for developed industries, and my role was working as a Development & Maintenance Engineer mainly for the Avionics labs."
+      desc: "Worked as a Research And Development Engineer in the Aviation Research Center. My main mission was to validate the reliability and functionality of avionics lab devices."
     }
   ]
 };
