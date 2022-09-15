@@ -36,9 +36,6 @@ const socialMediaLinks = {
 
 // Skills Section
 
-    
-<iframe title="Test2 - Overview Marketing" width="800" height="636" src="https://app.powerbi.com/view?r=eyJrIjoiYTIyZmM2YTEtMjkwNy00ZThjLTg2MGEtMDQ3ZDMzOThjYTEwIiwidCI6IjA0MTYwZGYwLTUzNjItNDVjZS1hZTlkLTU3MzIzZWVlNDI0YiJ9&embedImagePlaceholder=true" frameborder="0" allowFullScreen="true"></iframe>
-
 const skillsSection = {
   title: emoji("What I do 👨‍💻"), 
   subTitle: "I'm always seeking to learing new things & solve problem & projects that can increase my knowldge & experience ,I'm currently aiming to become a Certified Data Scientist",
