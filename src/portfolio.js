@@ -18,7 +18,7 @@ const greeting = {
     'Who is passionate about exploring the wonders of Data Science, Machine Learning & AI with the aim of making the world a better place one day 🌟'
   ,
   resumeLink:
-    "https://drive.google.com/file/d/1yxqTdgrYMpWSDLcdxNEM6IQ-F1Rwh-aZ/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/155p8DOS2GHG1iigxav96lmOOze3rXm52/view?usp=share_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -74,8 +74,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-brain"
     },
     {
-      skillName: "Java",
-      fontAwesomeClassname: "fab fa-java"
+      skillName: "Power BI",
+      fontAwesomeClassname: "fab fa-powerbi"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -119,6 +119,10 @@ const techStack = {
       progressPercentage: "85%"
     },
     {
+      Stack: "SQL",
+      progressPercentage: "85%"
+    },
+    {
       Stack: "Python",
       progressPercentage: "82%"
     }
@@ -131,26 +135,33 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+            {
+      role: "Data Analyst and Business Process Automation",
+      company: "Manara",
+      companylogo: require("./assets/images/Manara.png"),
+      date: "Sep 2022",
+      desc: "Dari is a home services platform that aims to leverage the power of technology and automation to make the daily home routine easy and fast by providing many different services from cleaning to car wash, My mission is to provide suggestions that can heavily affect the business decisions based on statistical evidance and historical patterns"
+    },
         {
-      role: "Software Engineer",
+      role: "Software Engineer Training",
       company: "Manara",
       companylogo: require("./assets/images/Manara.png"),
       date: "May 2022",
       desc: "I am participating in the Manara programme as a software engineer in order to advance and better my career as a software engineer and to achieve my dream of working for an FAANG organisation."
     },
         {
-      role: "Business Analyst & Data Scientist",
+      role: "Data Scientist Intern",
       company: "The Sparks Foundation",
       companylogo: require("./assets/images/Sparks.jpg"),
-      date: "April 2022 – May 2022",
-      desc: "Data Analysis · Machine Learning · Python"
+      date: "April 2022 – June 2022",
+      desc: "Data Analysis · Machine Learning · Python - Power BI"
     },
     {
-      role: "Research and Development Engineer",
+      role: "Testing and Reliability Engineer",
       company: "Aerospace Aviation Research Centre",
       companylogo: require("./assets/images/arc.png"),
       date: "Mar 2021 – Mar 2022",
-      desc: "Worked as a Research And Development Engineer in the Aviation Research Center. My main mission was to validate the reliability and functionality of avionics lab devices."
+      desc: "Worked as a Research And Development Engineer in the Aviation Research Center. My mission was to validate the reliability and functionality of avionics lab devices."
     }
   ]
 };
