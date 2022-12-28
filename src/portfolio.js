@@ -14,7 +14,7 @@ const greeting = {
   username: "NaderSalama",
   title: "Hello There, I’m Nader Salama",
   subTitle:
-    "I'm a Mechatronics Engineer & an enthusiastic Data Scientist & Machine learning Engineer👨‍🔬" +
+    "I'm a Mechatronics Engineer & an enthusiastic Data Scientist 👨‍🔬" +
     'Who is passionate about exploring the wonders of Data Science, Machine Learning & AI with the aim of making the world a better place one day 🌟'
   ,
   resumeLink:
@@ -54,8 +54,8 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "Data Analysis",
-      fontAwesomeClassname: "fas fa-file-chart-line"
+      skillName: "Pyspark",
+      fontAwesomeClassname: "fas fa-Pyspark"
     },
     {
       skillName: "Tableau",
@@ -92,7 +92,7 @@ const educationInfo = {
       subHeader: "Bachelor Degree in Bio-Mechatronics Engineering",
       duration: "September 2015 - July 2020",
       desc: "My graduation project was a collaboration between Ain shams University and Lincolin University in UK"+
-      " The major goal of this collaborative project between Ain Shams University and Lincoln University is to construct a four-wheeled modular autonomous fruit harvesting robot",
+      " A collaborative project between Ain Shams University and Lincoln University, The project aims to design and develop a four-wheeled modular autonomous fruit harvesting robot",
      // descBullets: [
      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -111,7 +111,7 @@ const techStack = {
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
      {
-      Stack: "Machine Learning", //Insert stack or technology you have experience in
+      Stack: "Machine Learning Concepts and Implementation", //Insert stack or technology you have experience in
       progressPercentage: "70%" //Insert relative proficiency in percentage
     },
     {
@@ -137,17 +137,20 @@ const workExperiences = {
   experience: [
             {
       role: "Data Analyst and Business Process Automation",
-      company: "Manara",
-      companylogo: require("./assets/images/Manara.png"),
+      company: "DARI",
+      companylogo: require("./assets/images/dari_logo.png"),
       date: "Sep 2022",
-      desc: "Dari is a home services platform that aims to leverage the power of technology and automation to make the daily home routine easy and fast by providing many different services from cleaning to car wash, My mission is to provide suggestions that can heavily affect the business decisions based on statistical evidance and historical patterns"
+      desc: "Dari is a home services platform that aims to leverage the power of technology and automation to make the daily home \
+             routine easy and fast by providing many different services from cleaning to car wash, My mission is to provide suggestions \
+             that can heavily affect the business decisions based on statistical evidance and historical patterns"
     },
         {
       role: "Software Engineer Training",
       company: "Manara",
       companylogo: require("./assets/images/Manara.png"),
       date: "May 2022",
-      desc: "I am participating in the Manara programme as a software engineer in order to advance and better my career as a software engineer and to achieve my dream of working for an FAANG organisation."
+      desc: "An intensive boot camp that prepares top computer scientists in the Middle East for jobs at global tech \
+             companies. Includes industry best practices for communication & writing efficient code"
     },
         {
       role: "Data Scientist Intern",
@@ -161,7 +164,8 @@ const workExperiences = {
       company: "Aerospace Aviation Research Centre",
       companylogo: require("./assets/images/arc.png"),
       date: "Mar 2021 – Mar 2022",
-      desc: "Worked as a Research And Development Engineer in the Aviation Research Center. My mission was to validate the reliability and functionality of avionics lab devices."
+      desc: "Worked as a Research And Development Engineer in the Aviation Research Center. \
+      My mission was to validate the reliability and functionality of avionics lab devices."
     }
   ]
 };
@@ -183,9 +187,9 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://drive.google.com/file/d/10csrueqScmqWPe98zqnrlaLyco6nUvrI/view?usp=sharing",
-      image: require("./assets/images/Dashboard White.JPG"),
-      title: "Retail - Sales Performance",
+      url: "https://github.com/LuciferLuther/SuperStore_Analysis",
+      image: require("./assets/images/Superstore Analysis Dashboard (1).JPG"),
+      title: "Retail Store - Sales Performance",
       description:
         "A descriptive Power Bi Dashboard that explains various aspects that affect sales and profit"
     },
@@ -207,8 +211,20 @@ const achievementSection = {
   subtitle:
     "Achievements, Certifications",
   achievementsCards: [
+    {
+      title: "AWS Machine Learning Engineer Nanodegree",
+      subtitle:
+        "Certificate of completion from Udacity",
+      image: require("./assets/images/AWS Machine Learning.png"),
+      footerLink: [
         {
-      title: "The Sparks Foundation Internship",
+          name: "Show Me",
+          url: "https://drive.google.com/file/d/1XCxPWXDmX1vsykOceCISvu1sSwEBThaN/view?usp=share_link"
+        }
+      ]
+    },
+    {
+      title: "The Sparks Foundation",
       subtitle:
         "Certificate of completion from The Sparks Foundation",
       image: require("./assets/images/Sparks_Intern_Certificate.png"),
@@ -220,7 +236,7 @@ const achievementSection = {
       ]
     },
      {
-      title: "The Sparks Foundation Internship",
+      title: "The Sparks Foundation",
       subtitle:
         "Recommendation Letter from The Sparks Foundation",
       image: require("./assets/images/LOR Sparks.png"),
@@ -327,7 +343,7 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/Dashboard White.JPG"),
-      projectName: "Retail - Sales Performance",
+      projectName: "Retail Store - Sales Performance",
       projectDesc: "A descriptive Power Bi Dashboard that explains various aspects that affect sales and profit",
       footerLink: [
         {
