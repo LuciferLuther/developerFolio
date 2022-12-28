@@ -1,43 +1,47 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8558852e562343f096031ef127b603b9",
+    "revision": "8b66bfb98256f8ea6020d520aef2a907",
     "url": "/index.html"
   },
   {
-    "revision": "4e8cefad220bd2f0582e",
+    "revision": "a830bf94a065478d9211",
     "url": "/static/css/3.df879eac.chunk.css"
   },
   {
-    "revision": "5caf162e12e335ee31ba",
+    "revision": "d5048a72db8c30932edd",
     "url": "/static/css/4.e91a4b36.chunk.css"
   },
   {
-    "revision": "63fc257f2f002cdec009",
+    "revision": "f07c6169bfaa0c5ef878",
     "url": "/static/css/main.66262938.chunk.css"
   },
   {
-    "revision": "4bfb57853c40ae7e6013",
-    "url": "/static/js/2.79437f20.chunk.js"
+    "revision": "eeb63ca60be662b2cdf6",
+    "url": "/static/js/2.467086ca.chunk.js"
   },
   {
     "revision": "6e1d2efc12a1ac972ff1f942df7eb0bd",
-    "url": "/static/js/2.79437f20.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.467086ca.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4e8cefad220bd2f0582e",
-    "url": "/static/js/3.e6b6a455.chunk.js"
+    "revision": "a830bf94a065478d9211",
+    "url": "/static/js/3.0fbbcc5a.chunk.js"
   },
   {
-    "revision": "5caf162e12e335ee31ba",
-    "url": "/static/js/4.750bf017.chunk.js"
+    "revision": "d5048a72db8c30932edd",
+    "url": "/static/js/4.1bbd1d5e.chunk.js"
   },
   {
-    "revision": "63fc257f2f002cdec009",
-    "url": "/static/js/main.07908b2a.chunk.js"
+    "revision": "f07c6169bfaa0c5ef878",
+    "url": "/static/js/main.246a1500.chunk.js"
   },
   {
-    "revision": "b1cdf6d3fd22cb6eb178",
-    "url": "/static/js/runtime-main.318ac236.js"
+    "revision": "d484874ee5eb65d31081",
+    "url": "/static/js/runtime-main.776e230f.js"
+  },
+  {
+    "revision": "82dc2b2260d5fefaa9237c7fe2d298b5",
+    "url": "/static/media/AWS Machine Learning.82dc2b22.png"
   },
   {
     "revision": "6e1a04a8dbb1b2bdbe962a47ffe165b8",
@@ -88,12 +92,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Sparks_Intern_Certificate.b651be92.png"
   },
   {
+    "revision": "76e23e5ca897fccc137880ab57f38898",
+    "url": "/static/media/Superstore Analysis Dashboard (1).76e23e5c.JPG"
+  },
+  {
     "revision": "22996a8e470b22ecf4bf06a88e8a6526",
     "url": "/static/media/asunews_119_img.22996a8e.png"
   },
   {
     "revision": "51cf7192327488da3d2a171280680c16",
     "url": "/static/media/contactMailDark.51cf7192.svg"
+  },
+  {
+    "revision": "c572deca193f72cf1727dc179f246c8a",
+    "url": "/static/media/dari_logo.c572deca.png"
   },
   {
     "revision": "59389695208d7454c6607bed51ed4316",
