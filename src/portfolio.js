@@ -38,7 +38,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: emoji("What I do 👨‍💻"), 
-  subTitle: "I'm always seeking to learing new things & solve problem & projects that can increase my knowldge & experience ,I'm currently aiming to become a Certified Data Scientist",
+  subTitle: "I'm always seeking to learing new things & solve problem & projects that can increase my knowldge & experience , I'm currently aiming to become a Certified Data Engineer",
   skills: [
     emoji(
       "⚡ Mine and analyze data from company databases to drive optimization and improvement of product development, marketing techniques and business strategies."
@@ -136,8 +136,8 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
             {
-      role: "Data Analyst and Business Process Automation",
-      company: "DARI",
+      role: "Data Scientist",
+      company: "DARI - Home Services",
       companylogo: require("./assets/images/dari_logo.png"),
       date: "Sep 2022",
       desc: "Dari is a home services platform that aims to leverage the power of technology and automation to make the daily home \
